@@ -1,0 +1,29 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="360" fill="#0d1117"/>
+  <rect width="1200" height="360" fill="url(#g1)" opacity="0.4"/>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4ade80" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- grid lines -->
+  <line x1="0" y1="90" x2="1200" y2="90" stroke="#4ade80" stroke-opacity="0.06" stroke-width="1"/>
+  <line x1="0" y1="180" x2="1200" y2="180" stroke="#4ade80" stroke-opacity="0.06" stroke-width="1"/>
+  <line x1="0" y1="270" x2="1200" y2="270" stroke="#4ade80" stroke-opacity="0.06" stroke-width="1"/>
+  <line x1="300" y1="0" x2="300" y2="360" stroke="#4ade80" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="360" stroke="#4ade80" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="900" y1="0" x2="900" y2="360" stroke="#4ade80" stroke-opacity="0.04" stroke-width="1"/>
+  <!-- left accent bar -->
+  <rect x="0" y="0" width="4" height="360" fill="#4ade80"/>
+  <!-- label -->
+  <text x="48" y="110" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" fill="#4ade80" opacity="0.8">OSS · Python + TypeScript · PyPI + npm</text>
+  <!-- title -->
+  <text x="48" y="190" font-family="'SF Mono', 'Fira Code', monospace" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="-1">agent-stream</text>
+  <!-- tagline -->
+  <text x="48" y="250" font-family="'SF Mono', 'Fira Code', monospace" font-size="22" fill="#8b949e">The SSE event protocol for AI agents.</text>
+  <!-- sub -->
+  <text x="48" y="295" font-family="'SF Mono', 'Fira Code', monospace" font-size="16" fill="#4ade80" opacity="0.7">9 event types · zero dependencies · extracted from 36 production tools</text>
+  <!-- right decoration -->
+  <text x="1000" y="200" font-family="'SF Mono', 'Fira Code', monospace" font-size="120" fill="#4ade80" opacity="0.04" text-anchor="middle">~</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="360" fill="#0d1117"/>
+  <rect width="1200" height="360" fill="url(#g5)" opacity="0.4"/>
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="90" x2="1200" y2="90" stroke="#06b6d4" stroke-opacity="0.06" stroke-width="1"/>
+  <line x1="0" y1="180" x2="1200" y2="180" stroke="#06b6d4" stroke-opacity="0.06" stroke-width="1"/>
+  <line x1="0" y1="270" x2="1200" y2="270" stroke="#06b6d4" stroke-opacity="0.06" stroke-width="1"/>
+  <!-- pulse wave decoration -->
+  <polyline points="800,180 850,180 870,120 900,240 930,150 960,210 990,180 1150,180" stroke="#06b6d4" stroke-width="2" stroke-opacity="0.15" fill="none"/>
+  <rect x="0" y="0" width="4" height="360" fill="#06b6d4"/>
+  <text x="48" y="110" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" fill="#06b6d4" opacity="0.8">Einstein Labs · P-family · Product Intelligence</text>
+  <text x="48" y="190" font-family="'SF Mono', 'Fira Code', monospace" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="-1">Pulse AI</text>
+  <text x="48" y="250" font-family="'SF Mono', 'Fira Code', monospace" font-size="22" fill="#8b949e">Product intelligence engine. Measure the product.</text>
+  <text x="48" y="295" font-family="'SF Mono', 'Fira Code', monospace" font-size="16" fill="#06b6d4" opacity="0.7">LLM-powered behavioral analytics · event stream → PM decision</text>
+</svg>

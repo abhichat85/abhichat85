@@ -1,0 +1,22 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="360" fill="#0d1117"/>
+  <rect width="1200" height="360" fill="url(#g8)" opacity="0.4"/>
+  <defs>
+    <linearGradient id="g8" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="90" x2="1200" y2="90" stroke="#f97316" stroke-opacity="0.06" stroke-width="1"/>
+  <line x1="0" y1="180" x2="1200" y2="180" stroke="#f97316" stroke-opacity="0.06" stroke-width="1"/>
+  <line x1="0" y1="270" x2="1200" y2="270" stroke="#f97316" stroke-opacity="0.06" stroke-width="1"/>
+  <!-- film strip decoration -->
+  <rect x="950" y="60" width="200" height="240" rx="4" stroke="#f97316" stroke-width="1" stroke-opacity="0.08" fill="none"/>
+  <rect x="970" y="80" width="160" height="90" rx="2" fill="#f97316" fill-opacity="0.04"/>
+  <rect x="970" y="190" width="160" height="90" rx="2" fill="#f97316" fill-opacity="0.04"/>
+  <rect x="0" y="0" width="4" height="360" fill="#f97316"/>
+  <text x="48" y="110" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" fill="#f97316" opacity="0.8">Einstein Labs · P-family · Autonomous Video OS</text>
+  <text x="48" y="190" font-family="'SF Mono', 'Fira Code', monospace" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="-1">Parallax</text>
+  <text x="48" y="250" font-family="'SF Mono', 'Fira Code', monospace" font-size="22" fill="#8b949e">The autonomous product video operating system.</text>
+  <text x="48" y="295" font-family="'SF Mono', 'Fira Code', monospace" font-size="16" fill="#f97316" opacity="0.7">give it a URL + recordings + goal → full multi-variant video campaign</text>
+</svg>

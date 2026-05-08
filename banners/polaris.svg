@@ -1,0 +1,18 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="360" fill="#0d1117"/>
+  <rect width="1200" height="360" fill="url(#g4)" opacity="0.4"/>
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="90" x2="1200" y2="90" stroke="#8b5cf6" stroke-opacity="0.06" stroke-width="1"/>
+  <line x1="0" y1="180" x2="1200" y2="180" stroke="#8b5cf6" stroke-opacity="0.06" stroke-width="1"/>
+  <line x1="0" y1="270" x2="1200" y2="270" stroke="#8b5cf6" stroke-opacity="0.06" stroke-width="1"/>
+  <rect x="0" y="0" width="4" height="360" fill="#8b5cf6"/>
+  <text x="48" y="110" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" fill="#8b5cf6" opacity="0.8">Einstein Labs · P-family · Spec-driven Coding Agent</text>
+  <text x="48" y="190" font-family="'SF Mono', 'Fira Code', monospace" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="-1">Polaris</text>
+  <text x="48" y="250" font-family="'SF Mono', 'Fira Code', monospace" font-size="22" fill="#8b949e">Spec-driven AI coding agent. Sees its own runtime errors.</text>
+  <text x="48" y="295" font-family="'SF Mono', 'Fira Code', monospace" font-size="16" fill="#8b5cf6" opacity="0.7">E2B sandbox · raw Anthropic SDK · no wrappers · built for India + SEA</text>
+</svg>
