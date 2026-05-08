@@ -1,0 +1,17 @@
+[package]
+name        = "prajna-storage"
+description = "Prajna cognitive storage engine — block I/O, page management, buffer pool, WAL"
+version.workspace     = true
+edition.workspace     = true
+license.workspace     = true
+repository.workspace  = true
+authors.workspace     = true
+
+[dependencies]
+thiserror          = { workspace = true }
+bytemuck           = { workspace = true }
+crc32c             = { workspace = true }
+static_assertions  = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

@@ -1,0 +1,48 @@
+[workspace]
+members = [
+    "crates/prajna-storage",
+    "crates/prajna-core",
+]
+resolver = "2"
+
+[workspace.package]
+version      = "0.1.0"
+edition      = "2021"
+license      = "Apache-2.0"
+repository   = "https://github.com/abhichat85/prajna"
+homepage     = "https://github.com/abhichat85/prajna"
+authors      = ["Prajna Contributors"]
+rust-version = "1.75"
+
+[workspace.dependencies]
+# Serialization
+serde      = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Identifiers
+uuid = { version = "1", features = ["v4", "serde"] }
+
+# Error handling
+thiserror = "1"
+
+# Safe byte casting (Pod, Zeroable)
+bytemuck = { version = "1", features = ["derive"] }
+
+# Checksums
+crc32c = "0.6"
+
+# Compile-time assertions
+static_assertions = "1"
+
+# Test utilities
+tempfile = "3"
+
+[profile.release]
+opt-level     = 3
+lto           = "fat"
+codegen-units = 1
+panic         = "abort"
+
+[profile.bench]
+inherits  = "release"
+debug     = true

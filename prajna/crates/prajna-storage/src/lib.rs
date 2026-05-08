@@ -1,0 +1,19 @@
+//! `prajna-storage` — the Prajna cognitive storage engine.
+//!
+//! This crate implements the lowest four layers of the Prajna stack:
+//!
+//! | Layer | Module           | Responsibility                              |
+//! |-------|------------------|---------------------------------------------|
+//! | L0    | [`block`]        | File-backed page I/O with CRC32c checksums  |
+//! | L1    | [`page`]         | Embedding-aware slotted page format         |
+//! | L2    | [`buffer`]       | Salience-weighted in-memory page cache      |
+//! | —     | [`error`]        | Unified error type                          |
+//!
+//! Higher layers (WAL, indexes, query engine, cognitive compiler) will be
+//! added in subsequent phases. See `ARCHITECTURE.md` in the repository root
+//! for the full layer map.
+
+pub mod block;
+pub mod buffer;
+pub mod error;
+pub mod page;
