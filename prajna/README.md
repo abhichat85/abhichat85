@@ -142,8 +142,8 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for the full design specification.
 | 1 | **MemoryObject type system** — 9 kinds, 7-tier hierarchy | ✅ done |
 | 1 | **Salience model** — formal decay + reinforcement function | ✅ done |
 | 1 | **MMR ranking** — diverse goal-conditioned selection | ✅ done |
-| 1 | Write-ahead log (L3) | next |
-| 1 | Free space management (L4) | planned |
+| 1 | **Write-ahead log (L3)** — ARIES-style, CRC32c records, crash recovery | ✅ done |
+| 1 | Free space management (L4) | next |
 | 2 | B-tree index (L5) | planned |
 | 2 | Unified CogTree index | planned |
 | 2 | Cognitive MVCC | planned |
@@ -153,7 +153,7 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for the full design specification.
 | 4 | Python / TypeScript SDKs | planned |
 | 4 | Multi-agent shared memory | planned |
 
-**30 tests, all passing.** See [docs/ROADMAP.md](./docs/ROADMAP.md) for the
+**42 tests, all passing.** See [docs/ROADMAP.md](./docs/ROADMAP.md) for the
 full multi-year build plan with milestones.
 
 ---
@@ -166,7 +166,7 @@ Requires Rust 1.75 or later.
 git clone <this-repo>
 cd prajna
 cargo build
-cargo test    # 30 tests across 2 crates
+cargo test    # 42 tests across 2 crates
 ```
 
 ---

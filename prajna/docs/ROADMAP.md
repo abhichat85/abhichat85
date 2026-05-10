@@ -21,10 +21,11 @@ No cognitive features until the foundation is crash-safe.
 restart, read all pages back with checksums valid. Zero data loss.
 
 ### Q3–Q4: WAL and Crash Recovery
-- [ ] ARIES-style write-ahead log with LSN
-- [ ] Physical redo logging
-- [ ] Crash recovery: analysis → redo → undo passes
+- [x] ARIES-style write-ahead log with LSN
+- [x] Physical redo logging (full page images, Phase 1)
+- [x] Crash recovery: scan → redo pass (truncated-tail safe)
 - [ ] Group commit and fsync batching
+- [ ] Checkpoint-based WAL truncation (Phase 2 optimization)
 - [ ] Cognitive transaction record types in WAL
 
 **Milestone:** kill -9 under random write load, restart, verify all committed
